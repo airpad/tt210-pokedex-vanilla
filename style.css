@@ -5,6 +5,7 @@ body{
     padding: 20px;
     align-items: flex-start;
     overflow-y: auto;
+    flex-direction: column;
 }
 
 .pokedex-container{
@@ -15,7 +16,7 @@ body{
 
 .pokemon-list{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
     gap: 20px;
 }
 
